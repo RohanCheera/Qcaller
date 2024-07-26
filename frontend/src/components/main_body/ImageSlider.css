@@ -1,0 +1,7 @@
+.carousel-item{
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+    background-image: url(../../assets/image.png);
+    
+}

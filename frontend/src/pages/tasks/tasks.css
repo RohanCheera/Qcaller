@@ -1,0 +1,8 @@
+.tasks{
+    min-height: 93vh;
+}
+.tasks-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

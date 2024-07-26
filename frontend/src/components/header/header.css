@@ -1,0 +1,69 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .app-title {
+    font-family: sans-serif,Arial;
+    font-weight: 800;
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  
+  .menu-bar {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .main-menu-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+    font-weight: 600;
+  }
+  
+  .main-menu-item:hover {
+    color: #161e26; /* Lighter shade of white for hover effect */
+  }
+  
+  .signup-btn {
+    background-color: white;
+    color: #007bff; /* Primary color of your theme */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+  }
+  
+  .signup-btn:hover {
+    background-color: #f8f9fa; /* Light gray background on hover */
+    color: #007bff; /* Primary color for text on hover */
+  }
+  
+.main-menu-item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.main-menu-item.disabled-link {
+  color: grey;
+  pointer-events: none;
+  cursor: not-allowed;
+}

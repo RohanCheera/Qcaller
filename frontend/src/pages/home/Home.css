@@ -1,0 +1,121 @@
+.home-body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f9f9f9 0%, #e0f7fa 100%);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+    transition: transform 0.3s;
+  }
+  
+  .home-body:hover {
+    transform: translateY(-5px);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .home-body h1 {
+    color: #007BFF;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    animation: slideInFromLeft 0.5s ease-out;
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .home-body h2 {
+    color: #555;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    animation: slideInFromRight 0.5s ease-out;
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .home-body h3 {
+    color: #007BFF;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    animation: fadeInUp 0.5s ease-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .home-body p {
+    color: #666;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  .home-body .cta {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.3s;
+  }
+  
+  .home-body .cta:hover {
+    background: #0056b3;
+    transform: translateY(-3px);
+  }
+
+  .home-body ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 20px;
+  }
+  
+  .home-body ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  span{
+    font-weight: bold!important;
+    color: red;
+  }
+  
